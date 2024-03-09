@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #1f1f1f;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+p {
+    color: #999;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.container {
+    padding: 5rem;
+
+}
+
+.main{
+    max-width: 1300px;
+    margin:auto;
+    padding: 0 1rem;
+    display: flex;
+}
+
+.main--content {
+    width: 100%;
+}
+.btn {
+    padding: 8px 18px;
+    background-color: #27e187;
+    border-radius: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #1f1f1f;
+    border: 2px solid #27e187;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+.btn:hover {
+    background-color: #1f1f1f;
+    color: #27e187;
+    box-shadow: 0 0 1rem #27e187;
+    opacity: 0.8;
+}
+.btn--line {
+    padding: 8px 18px;
+    border-radius: 3rem;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #565656;
+    color: #999;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+.btn--line:hover {
+    background-color: #27e187;
+    border-color: #27e187;
+    color: #1f1f1f;
+    box-shadow: 0 0 1rem #27e187;
+    opacity: 0.8;
+}
+
+/* sidemenu */
+.sidemenu {
+    height: 100vh;
+    min-width: 300px;
+    max-width: 300px;
+    border-right: 1px solid #565656;
+    border-left: 1px solid #565656;
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avatar--cover {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1rem;
+    transition: box-shadow 0.15s;
+}
+.avatar--cover:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 1rem #27e187;
+    opacity: 0.8;
+}
+
+.name {
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+.position {
+    margin-top: 0.2rem;
+    text-align: center;
+}
+
+.social--icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.6rem;
+}
+
+.social--icon {
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 2px solid #565656;
+    font-size: 1.2rem;
+    color: #999;
+    transition: box-shadow 0.15s;
+
+}
+.social--icon:hover {
+    color: #27e187;
+    border-color: #27e187;
+    box-shadow: 0 0 1rem #27e187;
+    opacity: 0.8;
+}
+
+.sidemenu  .btn {
+    margin-top: 2rem;
+}
+.sidemenu  .btn--line {
+    margin-top: 1rem;
+}
+
