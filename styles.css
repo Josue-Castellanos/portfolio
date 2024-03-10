@@ -228,7 +228,7 @@ img {
     width: 16px;
     border-radius: 100%;
     background-color: #565656;
-    top: .1px;
+    top: 4px;
     left: -8px;
 }
 
@@ -312,5 +312,61 @@ img {
     border-radius: 2rem;
     font-size: 0.8rem;
     color: #fff;   
+}
+
+/* responsive */
+@media (max-width: 1100px) {
+    .main {
+        padding: 0;
+        display: block;
+    }
+    .sidemenu {
+       position: relative; 
+       margin: auto;
+       border-right: none;
+       border-left: none;
+       padding: 1rem;
+    }
+}
+
+@media (max-width: 720px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+    .container {
+        padding: 2rem;
+    }
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .portfolio--cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contact--cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.9rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+    .container {
+        padding: 1rem;
+        padding-block: 2.5rem;
+    }
+
 }
 
