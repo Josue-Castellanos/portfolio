@@ -1,3 +1,4 @@
+/* TYPE JS */
 var typed = new Typed(('._skills'), {
     strings : ['Software Engineer','Developer','Options Trader'],
     typeSpeed: 100,
