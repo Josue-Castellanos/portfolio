@@ -26,8 +26,8 @@
                         <i class="ri-github-fill"></i>
                     </a>
                 </div>
-                <div class="btn"> Hire Me</div>
-                <a href="/img/Josue Castellanos Resume .pdf" download>
+                <div class="btn" id="button"> Hire Me</div>
+                <a href="/img/Resume [Castellanos, Josue].pdf" download>
                     <div class="btn--line"> Download CV</div>
                 </a>
             </div>
@@ -199,18 +199,19 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="#" target="_blank" alt="">
+                        <a href="https://jcastellanos.com" target="_blank" alt="">
                             <div class="full--cover">
                                 <img src="img/Screenshot_9.png" alt="" />
                                 <div class="chips">
                                     <div class="chip">HTML</div>
                                     <div class="chip">CSS</div>
+                                    <div class="chip">JS</div>
                                 </div>
                             </div>
                         </a>
                     </div>
                 </div></div> 
-                <div class="contact"><div class="container">
+                <div class="contact" id="contact"><div class="container">
                     <div class="top--title">contact me</div>
                     <h2 class="title">Let's work <span>Together!</span></h2>
                     <div class="contact--cards">
@@ -256,5 +257,21 @@
 
         <!-- CONTACT JS -->
         <script src="js/contact.js"></script>
+
+        <!-- SCROLL JS -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var button = document.getElementById('button');
+        
+                if (button) {
+                    button.addEventListener('click', function () {
+                        window.scrollTo({
+                            top: document.body.scrollHeight,
+                            behavior: 'smooth'
+                        });
+                    });
+                }
+            });
+        </script>
     </body>
 </html>

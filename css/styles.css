@@ -102,6 +102,7 @@ img {
 }
 .btn--line {
     padding: 8px 18px;
+    background-color: #1f1f1f;
     border-radius: 3rem;
     text-align: center;
     font-weight: bold;
