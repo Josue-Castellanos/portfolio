@@ -26,15 +26,38 @@
                         <i class="ri-github-fill"></i>
                     </a>
                 </div>
-                <div class="btn" id="button"> Hire Me</div>
+                <div class="responsive-button">
+                    <a href="#intro" class="btn">About Me</a>
+                    <a href="#portfolio" class="btn">Projects</a>
+                    <a href="#resume" class="btn">Experience</a>
+                </div>
+                <div class="btn" id="button" href="#contact">Contact</div>
                 <a href="/img/Resume [Castellanos, Josue].pdf" download>
                     <div class="btn--line"> Download CV</div>
                 </a>
             </div>
             <div class="main--content">
-                <div class="intro">
+                <nav class="navbar">
+                    <div class="nav_container">
+                        <ol class="nav-links">
+                            <li>
+                                <a href="#intro" class="btn" id="button">About Me</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio" class="btn" id="button">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#resume" class="btn" id="button">Experience</a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="btn" id="button">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div id="intro" class="intro">
                     <div class="container">
-                        <div class="top--title">introduce</div>
+                        <div class="top--title">about me</div>
                         <h1>
                             I'm Josue, <br/><span class="_skills"></span>
                         </h1>
@@ -48,20 +71,10 @@
                             My transition from a unionized carpentry trade to computer science reflects my strong drive for
                             excellence and adaptability to new challenges.                         </p>
                     </div>
-                <!-- <div class="about">
+                </div>
+                <div id="resume" class="resume">
                     <div class="container">
-                        <div class="top--title">about</div>
-                        <h2 class="title">
-                            Math is my <span>Passion</span><br/> Engineering is my <span>Profession</span>
-                        </h2>
-                        <p>
-                            
-                        </p>
-                    </div>
-                </div> -->
-                <div class="resume">
-                    <div class="container">
-                        <div class="top--title">resume</div>
+                        <div class="top--title">experience</div>
                         <h2 class="title">Education & <span>Experience</span></h2>
                         <div>
                             <div class="experience">
@@ -79,133 +92,59 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="services">
+                <div class="portfolio" id="portfolio">
                     <div class="container">
-                        <div class="top--title">services</div>
-                        <h2 class="title">My <span>Specializations</span></h2>
-                        <div class="service">
-                            <h3>Application Development</h3>
-                            <p>
-                                I created digital products with unique ideas using Java
-                            </p>
-                            <a href="#" class="projects">3 Projects</a>
+                        <div class="top--title">projects</div>
+                        <h2 class="title">Featured <span>Projects</span></h2>
+                        <div class="portfolio--cards">
+                            <a href="https://github.com/Josue-Castellanos/Project_OS" target="_blank" alt="">
+                                <div class="full--cover">
+                                    <img src="img/Screenshot_6.png" alt="" />
+                                    <div class="chips">
+                                        <div class="chip">C</div>
+                                        <div class="chip">Assembly</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://github.com/Josue-Castellanos/FlashcardApp" target="_blank" alt="">
+                                <div class="full--cover">
+                                    <img src="img/Screenshot_10.png" alt="" />
+                                    <div class="chips">
+                                        <div class="chip">Java</div>
+                                        <div class="chip">XML</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://github.com/Josue-Castellanos/Chess-Game-Mobile-App" target="_blank" alt="">
+                                <div class="full--cover">
+                                    <img src="img/Screenshot_1.png" alt="" />
+                                    <div class="chips">
+                                        <div class="chip">Java</div>
+                                        <div class="chip">XML</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://github.com/Josue-Castellanos/Client-Server_Project" target="_blank" alt="">
+                                <div class="full--cover">
+                                    <img src="img/Screenshot_4.png" alt="" />
+                                    <div class="chips">
+                                        <div class="chip">Java</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://jcastellanos.com" target="_blank" alt="">
+                                <div class="full--cover">
+                                    <img src="img/Screenshot_9.png" alt="" />
+                                    <div class="chips">
+                                        <div class="chip">HTML</div>
+                                        <div class="chip">CSS</div>
+                                        <div class="chip">JS</div>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
-                </div> -->
-                <div class="my--skills">
-                    <div class="container">
-                        <div class="top--title">my skills</div>
-                        <h2 class="title">My <span>Advantages</span></h2>
-                        <div class="skills">
-                            <div>
-                                <div class="skill">
-                                    <div class="skill--img--cover">
-                                        <img src="img/java-logo.svg" alt="" />
-                                    </div>
-                                    <h3>Java</h3>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="skill">
-                                    <div class="skill--img--cover">
-                                        <img src="img/cpp3-svgrepo-com.svg" alt="" />
-                                    </div>
-                                    <h3>C++</h3>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="skill">
-                                    <div class="skill--img--cover">
-                                        <img src="img/python-127-svgrepo-com.svg" alt="" />
-                                    </div>
-                                    <h3>Python</h3>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="skill">
-                                    <div class="skill--img--cover">
-                                        <img src="img/mysql-svgrepo-com.svg" alt="" />
-                                    </div>
-                                    <h3>MySQL</h3>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="skill">
-                                    <div class="skill--img--cover">
-                                        <img src="img/html5-logo-svgrepo-com.svg" alt="" />
-                                    </div>
-                                    <h3>HTML</h3>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="skill">
-                                    <div class="skill--img--cover">
-                                        <img src="img/css3-svgrepo-com.svg" alt="" />
-                                    </div>
-                                    <h3>CSS</h3>
-                                </div>
-                            </div>
-                            <!-- <div>
-                                <div class="skill">
-                                    <div class="skill--img--cover">
-                                        <img src="#" alt="" />
-                                    </div>
-                                    <h3>Js</h3>
-                                </div>
-                            </div> -->
-                        </div>
-                    </div></div>
-                <div class="portfolio" id="portfolio"><div class="container">
-                    <div class="top--title">portfolio</div>
-                    <h2 class="title">Featured <span>Projects</span></h2>
-                    <div class="portfolio--cards">
-                        <a href="https://github.com/Josue-Castellanos/Project_OS" target="_blank" alt="">
-                            <div class="full--cover">
-                                <img src="img/Screenshot_6.png" alt="" />
-                                <div class="chips">
-                                    <div class="chip">C</div>
-                                    <div class="chip">Assembly</div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="https://github.com/Josue-Castellanos/FlashcardApp" target="_blank" alt="">
-                            <div class="full--cover">
-                                <img src="img/Screenshot_10.png" alt="" />
-                                <div class="chips">
-                                    <div class="chip">Java</div>
-                                    <div class="chip">XML</div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="https://github.com/Josue-Castellanos/Chess-Game-Mobile-App" target="_blank" alt="">
-                            <div class="full--cover">
-                                <img src="img/Screenshot_1.png" alt="" />
-                                <div class="chips">
-                                    <div class="chip">Java</div>
-                                    <div class="chip">XML</div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="https://github.com/Josue-Castellanos/Client-Server_Project" target="_blank" alt="">
-                            <div class="full--cover">
-                                <img src="img/Screenshot_4.png" alt="" />
-                                <div class="chips">
-                                    <div class="chip">Java</div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="https://jcastellanos.com" target="_blank" alt="">
-                            <div class="full--cover">
-                                <img src="img/Screenshot_9.png" alt="" />
-                                <div class="chips">
-                                    <div class="chip">HTML</div>
-                                    <div class="chip">CSS</div>
-                                    <div class="chip">JS</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div></div> 
+                </div> 
                 <div class="contact" id="contact"><div class="container">
                     <div class="top--title">contact me</div>
                     <h2 class="title">Let's work <span>Together!</span></h2>
@@ -237,10 +176,14 @@
                             <button class="btn--line" type="submit">Send Message</button>
                         </form>
                     </div>
-                    </div>
-                </div> 
                 </div>
-            </div>
+            </div> 
+            <footer class="footer">
+                <div class="container">
+                    <p>&copy; 2024 Josue Castellanos.</p>
+                    <a href="#intro" class="btn btn--footer">Back to Top</a>
+                </div>
+            </footer>
         </div>
 
         <!-- EMAIL JS -->
@@ -254,19 +197,6 @@
         <script src="js/contact.js"></script>
 
         <!-- SCROLL JS -->
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                var button = document.getElementById('button');
-        
-                if (button) {
-                    button.addEventListener('click', function () {
-                        window.scrollTo({
-                            top: document.body.scrollHeight,
-                            behavior: 'smooth'
-                        });
-                    });
-                }
-            });
-        </script>
+        <script src="js/scroll.js"></script>
     </body>
 </html>
